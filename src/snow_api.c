@@ -101,7 +101,7 @@ static esp_err_t client_event_get_response_body_handler(esp_http_client_event_ha
 
 static void get_api_response()
 {
-    esp_http_client_set_header(client, "X-RapidAPI-Key", "95ca93f219msh590737c3dc2399fp1b2066jsne60ba20d4a74");
+    esp_http_client_set_header(client, "X-RapidAPI-Key", "RAPID API KEY GOES HERE");
     esp_http_client_set_header(client, "X-RapidAPI-Host", "ski-resort-forecast.p.rapidapi.com");
     esp_http_client_perform(client);
 }
